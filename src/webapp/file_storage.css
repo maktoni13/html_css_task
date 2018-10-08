@@ -12,62 +12,99 @@ body, html {
 #main {
     margin: 0;
     padding: 0;
-    background: red;
+    background: white;
     width: 100%;
     height: 100%;
     position: relative;
-
+    border: 1px solid black;
 }
 
 #header {
-    background: lightgray;
-    height: 20%;
+    background: white;
+    height: 50px;
     width: 100%;
     text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
 }
 
 #navigation {
-    background: lightgreen;
-    height: 5%;
-    padding-left: 5px;
+    background: white;
+    height: 20px;
+    padding-right: 5px;
+    text-align: right;
+    border: 1px solid black;
+}
+
+#middle{
+    background: lightblue;
+    width: 100%;
+    min-height: 80%;
+    height: 80%;
+    position: relative;
 }
 
 #menu {
-    background: yellow;
     float: left;
     width: 20%;
-    min-height: 65%;
+    min-height: 80%;
+    height: 100%;
     position: relative;
-
-
+    border: 1px solid black;
 }
 
 #content {
     background: white;
     float: left;
     width: 60%;
-    min-height: 65%;
+    height: 100%;
     position: relative;
+    border: 1px solid black;
+}
 
+#loginForm {
+    background: white;
+    width: 100%;
+    position: relative;
+    border: 1px solid lightgray;
+}
+
+.loginLabels {
+    background: white;
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding: 1px 1px 1px 1px;
+    position: relative;
+}
+
+.loginInputs {
+    background: white;
+    float: right;
+    width: 80%;
+    text-align: left;
+    position: relative;
 }
 
 #news {
-    background: magenta;
+    background: white;
     float: left;
     width: 20%;
     min-height: 65%;
     position: relative;
-
+    border: 1px solid black;
 }
 
 #clear {
-    clear:both;
+    clear: both;
+    border: 1px solid black;
 }
 
 #footer {
-    background: cyan;
-    height: 10%;
+    background: white;
+    height: 20px;
     width: 100%;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: bottom;
+    border: 1px solid black;
 }

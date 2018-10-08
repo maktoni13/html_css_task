@@ -3,33 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="file_storage.css" />
+    <link rel="stylesheet" type="text/css" href="file_storage.css"/>
 </head>
 <body>
 <div id="main">
 
     <div id="header">
-        <div style="font-size: 30px; padding-top: 20px;">Файловое хранилище v 0.01 (Потеряй свои файлы красиво! ;) )</div>
+        <div style="padding-top: 10px;">Файловое хранилище v 0.01 (Потеряй свои файлы красиво! ;) )</div>
     </div>
-
+    <!--
     <div id="navigation"><a href="#">Главная страница</a> / <a href="#">Подстраница</a> / Мы здесь
     </div>
+    -->
+    <div id="navigation">Необходимо выполнить вход в систему.</div>
 
-    <div id="menu"><div style="padding: 5px 5px 5px 5px;"></div>
+    <div id="middle">
+        <div id="menu">Menu</div>
+        <div id="content">
+            <form id="loginForm">
+                <fieldset>
+                    <div>
+                        <div class="loginLabels">
+                            Логин:<br>
+                        </div>
+                        <div class="loginInputs">
+                            <input id="login" type="text" name="login"><br>
+                        </div>
+                    </div>
+<!--
+                    <div>
+                        <div class="loginLabels">
+                            <label for="password">Пароль:</label><br>
+                        </div>
+                        <div class="loginInputs">
+                            <input id="password" type="password" name="password"><br>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="loginLabels">
+                            <label for="remember">Запомнить:</label><br>
+                            <label> </label>
+                        </div>
+                        <div class="loginInputs">
+                            <input id="remember" type="checkbox" name="remember"><br>
+                            <input type="button" value="Войти">
+                        </div>
+                    </div>
+-->
+                </fieldset>
+            </form>
+            <div style="padding: 5px 5px 5px 5px;">Контент Контент Контент Контент Контент</div>
+        </div>
+
+
     </div>
 
-    <div id="content"><div style="padding: 5px 5px 5px 5px;">Контент Контент Контент Контент Контент</div>
-
+    <div id="footer">
+        <div style="vertical-align: bottom">&copy; 2014, EPAM RD TC</div>
     </div>
 
-    <div id="news"><div style="padding: 5px 5px 5px 5px;"></div>
-    </div>
+    <!--
 
-    <div id="clear">
-    </div>
+        <div id="content">
+            <form id="loginForm">
+                <fieldset>
+                    <div id="loginLabels">
+                        <label for="login">Логин:</label>
+                    </div>
+                    <div id="loginInputs">
+                        <input id="login" type="text" name="login">
+                    </div>
 
-    <div id="footer"><div style="font-size: 18px; padding-top: 10px;">&copy; 2014, EPAM RD TC</div>
-    </div>
+                </fieldset>
+            </form>
+            <div style="padding: 5px 5px 5px 5px;">Контент Контент Контент Контент Контент</div>
+
+        </div>
+
+        <div id="news"><div style="padding: 5px 5px 5px 5px;"></div>
+        </div>
+
+        <div id="clear">
+        </div>
+    -->
 
 </div>
 
